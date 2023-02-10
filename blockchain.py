@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 from uuid import uuid4
 
 from flask import Flask, jsonify, request
-
+import requests
 
 class Blockchain:
     def __init__(self):
